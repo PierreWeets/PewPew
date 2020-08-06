@@ -5,10 +5,15 @@
         <meta charset="utf-8"/>
    </head>
     <body>
-        <p id="score"></p> <p><button id="start" onclick="startGame()"> </button></p>
-        <p id="timeCounter"></p>
+        <table>
+            <tr> 
+                <td id="score"></td>
+                <td><button id="start" onclick="startGame()"></button></td>
+                <td id="timeCounter"></td>
+            </tr>
+        </table>
         <!-- tabindex=0  associated with JS canvas.focus() to set the focus to the canvas, to enable the keydown event-->
-        <canvas id="canvas" tabindex=0 width="800" height="500" style="border:1px solid #1b1a1a;">
+        <canvas id="canvas" tabindex=0 width="800" height="550" style="border:1px solid #1b1a1a;">
                     
         <script src="./cannon.js"></script>
     </body>
