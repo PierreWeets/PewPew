@@ -227,7 +227,6 @@ function startGame(){
 function canvasDraw() {
     //console.log("canvasDraw() - running:" + running);
     if (running){//if game is running => clear the screen & display the objects
-        document.getElementById("score").innerHTML="Score = "  + score;
         // clear the canvas before re-display
         clear() 
         //draw the cannon
@@ -251,6 +250,7 @@ function canvasDraw() {
             target.centerPosX = target.radius + Math.round(Math.random()*(canvas.width-2*target.radius));
             target.centerPosY = target.radius + Math.round(Math.random()*(100-target.radius));
             score ++; //increment the score
+            document.getElementById("score").innerHTML="Score = "  + score;
             if(score >= 10){
                 clearInterval(myTimer);
                 document.getElementById("start").innerHTML = "START";
