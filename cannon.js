@@ -251,7 +251,7 @@ function canvasDraw() {
             target.centerPosX = target.radius + Math.round(Math.random()*(canvas.width-2*target.radius));
             target.centerPosY = target.radius + Math.round(Math.random()*(100-target.radius));
             score ++; //increment the score
-            if(score >= 2){
+            if(score >= 10){
                 clearInterval(myTimer);
                 document.getElementById("start").innerHTML = "START";
                 document.getElementById("start").disabled = false;
