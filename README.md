@@ -1,5 +1,5 @@
 # PewPew
-click on [cannon](https://pierreweets.github.io/PewPew/cannon.html)
+[the cannon game](https://pierreweets.github.io/PewPew/cannon.html)
 
 # Exercise
 [Requirements](https://github.com/becodeorg/CRL-Woods-3.21/tree/master/LearningPath/02.The-Hill/11.Javascript/02.Series-2/2.Canvas)
