@@ -1,8 +1,8 @@
 # PewPew
 [the cannon game](https://pierreweets.github.io/PewPew/cannon.html)
 
-* click on th start button
-* use the left & rigth arrows to move the cannon
+* click on the start button
+* use the left & right arrows to move the cannon
 * Shoot with the space bar
 * when the 10th target is distroyed, the game ends
 
